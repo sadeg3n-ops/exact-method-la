@@ -22,7 +22,9 @@ declare global {
 
 export default function ExactMethodLandingPage() {
   const [isModalOpen, setIsModalOpen] = useState(false)
-  const calendlyUrl = process.env.NEXT_PUBLIC_CALENDLY_URL?.trim() ?? ""
+  const calendlyUrl =
+    process.env.NEXT_PUBLIC_CALENDLY_URL?.trim() ??
+    "https://calendly.com/elitetraderslivetrading/valoracion-gratuita-15-mins"
 
   const openModal = () => {
     if (!calendlyUrl) {

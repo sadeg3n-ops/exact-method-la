@@ -44,7 +44,9 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
-  const calendlyUrl = process.env.NEXT_PUBLIC_CALENDLY_URL?.trim()
+  const calendlyUrl =
+    process.env.NEXT_PUBLIC_CALENDLY_URL?.trim() ??
+    "https://calendly.com/elitetraderslivetrading/valoracion-gratuita-15-mins"
 
   return (
     <html lang="en" className="scroll-smooth">
