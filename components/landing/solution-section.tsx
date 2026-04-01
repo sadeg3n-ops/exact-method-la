@@ -17,10 +17,10 @@ const features = [
     imagePosition: "center center",
   },
   {
-    title: "Sustainable nutrition",
+    title: "Flexible nutrition",
     subtitle: "Eat well without overcomplicating it",
     description: "Clear targets, flexible guidelines, and enough room to eat out, work long hours, and still make progress.",
-    image: "/images/process/nutricion-sostenible.png",
+    image: "/images/process/nutricion-flexible.jpg",
     imagePosition: "center center",
   },
   {
