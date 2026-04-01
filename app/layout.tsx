@@ -13,19 +13,19 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://exact-method-la.vercel.app"),
-  title: "Exact Method | Online Coaching in Los Angeles",
-  description: "Online coaching for people in Los Angeles who train hard but still feel stuck. Book a free 15-minute assessment.",
-  keywords: "online coaching los angeles, online personal trainer los angeles, training programming, sustainable nutrition, fitness assessment",
+  title: "Exact Method | Online Coaching",
+  description: "Online coaching for people who train hard but still feel stuck. Book a free 15-minute assessment.",
+  keywords: "online coaching, online personal trainer, training programming, sustainable nutrition, fitness assessment",
   openGraph: {
-    title: "Exact Method | Online Coaching in Los Angeles",
-    description: "Online coaching for people in Los Angeles who train hard but still feel stuck. Book a free 15-minute assessment.",
+    title: "Exact Method | Online Coaching",
+    description: "Online coaching for people who train hard but still feel stuck. Book a free 15-minute assessment.",
     siteName: "Exact Method",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Exact Method | Online Coaching in Los Angeles",
-    description: "Online coaching for people in Los Angeles who train hard but still feel stuck. Book a free 15-minute assessment.",
+    title: "Exact Method | Online Coaching",
+    description: "Online coaching for people who train hard but still feel stuck. Book a free 15-minute assessment.",
   },
   icons: {
     icon: "/icon.svg",

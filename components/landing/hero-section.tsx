@@ -45,11 +45,10 @@ export function HeroSection({ onCtaClick }: HeroSectionProps) {
 
           <Reveal delay={0.2} duration={0.8}>
             <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight mb-6 text-balance text-foreground drop-shadow-[0_6px_24px_rgba(0,0,0,0.75)]">
-              Online coaching for people in{" "}
+              Online coaching for people who train hard but still feel{" "}
               <span className="animate-text-gradient bg-gradient-to-r from-primary via-orange-400 to-primary">
-                Los Angeles
+                stuck
               </span>
-              {" "}who train hard but still feel stuck
             </h1>
           </Reveal>
 

@@ -88,7 +88,7 @@ export default function OpenGraphImage() {
                 color: "rgba(255,255,255,0.72)",
               }}
             >
-              Online Coaching in Los Angeles
+              Online Coaching for Real Progress
             </div>
           </div>
         </div>

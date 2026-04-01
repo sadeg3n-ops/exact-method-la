@@ -1,6 +1,6 @@
 "use client"
 
-import { ArrowRight, MapPin, Phone, Dumbbell } from "lucide-react"
+import { ArrowRight, Phone, Dumbbell } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 interface FooterSectionProps {
@@ -89,10 +89,6 @@ export function FooterSection({ onCtaClick }: FooterSectionProps) {
             <div className="max-w-xs md:max-w-none">
               <h4 className="font-semibold text-foreground mb-4">Contact</h4>
               <div className="space-y-3 flex flex-col items-center md:items-start">
-                <div className="flex items-center justify-center md:justify-start gap-2 text-muted-foreground/80 text-sm">
-                  <MapPin className="w-4 h-4 text-primary" />
-                  <span>Online | Los Angeles, CA</span>
-                </div>
                 <a
                   href="https://wa.me/34600000000"
                   target="_blank"
