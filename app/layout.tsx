@@ -28,8 +28,8 @@ export const metadata: Metadata = {
     description: "Online coaching for people who train hard but still feel stuck. Book a free 15-minute assessment.",
   },
   icons: {
-    icon: "/icon.svg",
-    apple: "/apple-icon.png",
+    icon: "/exact-method-favicon.svg",
+    apple: "/exact-method-apple-icon.png",
   },
 }
 
