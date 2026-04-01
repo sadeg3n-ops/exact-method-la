@@ -90,13 +90,13 @@ export function FooterSection({ onCtaClick }: FooterSectionProps) {
               <h4 className="font-semibold text-foreground mb-4">Contact</h4>
               <div className="space-y-3 flex flex-col items-center md:items-start">
                 <a
-                  href="https://wa.me/34600000000"
+                  href="https://wa.me/13105550186"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center md:justify-start gap-2 text-muted-foreground/80 text-sm hover:text-foreground transition-colors group"
                 >
                   <Phone className="w-4 h-4 text-primary group-hover:scale-110 transition-transform" />
-                  <span>WhatsApp · +34 600 000 000</span>
+                  <span>WhatsApp · +1 (310) 555-0186</span>
                 </a>
               </div>
             </div>

@@ -97,7 +97,7 @@ export function CtaModal({ isOpen, onClose }: CtaModalProps) {
                   <Input
                     id="phone"
                     type="tel"
-                    placeholder="+34 600 000 000"
+                    placeholder="+1 (310) 555-0186"
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                     required

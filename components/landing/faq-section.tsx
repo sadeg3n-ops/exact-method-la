@@ -98,7 +98,7 @@ export function FaqSection() {
 
           <Reveal delay={0}>
             <a
-              href="https://wa.me/34600000000?text=Hi,%20I%20have%20a%20few%20questions%20about%20the%20assessment%20and%20online%20coaching."
+              href="https://wa.me/13105550186?text=Hi,%20I%20have%20a%20few%20questions%20about%20the%20assessment%20and%20online%20coaching."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white font-semibold px-6 py-3 rounded-xl transition-all hover:scale-105 shadow-lg shadow-[#25D366]/20 group text-sm animate-whatsapp-nudge"

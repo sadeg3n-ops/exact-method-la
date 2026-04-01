@@ -12,11 +12,11 @@ export function GuaranteeSection() {
           </div>
 
           <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-            Garantía 30 días
+            30-day guarantee
           </h2>
 
           <p className="text-lg text-muted-foreground max-w-xl mx-auto">
-            Si cumples el plan y no hay mejora medible, te devolvemos el dinero.
+            If you follow the plan and there is no measurable improvement, you get your money back.
           </p>
         </div>
       </div>
