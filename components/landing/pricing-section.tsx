@@ -56,7 +56,7 @@ export function PricingSection({ onCtaClick }: PricingSectionProps) {
                   12-week coaching
                 </h3>
                 <div className="flex items-baseline justify-center gap-1">
-                  <span className="text-5xl md:text-6xl font-bold text-primary">149€</span>
+                  <span className="text-5xl md:text-6xl font-bold text-primary">$149</span>
                   <span className="text-muted-foreground text-lg">/ month</span>
                 </div>
               </CardHeader>
@@ -88,7 +88,7 @@ export function PricingSection({ onCtaClick }: PricingSectionProps) {
                 </MagneticButton>
 
                 <p className="text-center text-sm text-muted-foreground mt-4">
-                  €149/month. We assess your case first.
+                  $149/month. We assess your case first.
                 </p>
               </CardContent>
             </Card>
