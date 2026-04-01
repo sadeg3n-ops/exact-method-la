@@ -44,6 +44,8 @@ export function TestimonialsSection() {
                     <BeforeAfterSlider
                       beforeImage={testimonial.beforeImage}
                       afterImage={testimonial.afterImage}
+                      beforeLabel="Before"
+                      afterLabel="After"
                     />
                   </div>
 
