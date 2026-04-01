@@ -162,17 +162,17 @@ export function SolutionSection() {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <Reveal>
+          <Reveal duration={0.32} direction="none">
             <span className="inline-block text-primary font-semibold text-sm tracking-wider uppercase mb-4">
               Process
             </span>
           </Reveal>
-          <Reveal delay={0.1}>
+          <Reveal delay={0.04} duration={0.36} direction="none">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 text-balance">
               What changes when you stop improvising
             </h2>
           </Reveal>
-          <Reveal delay={0.2}>
+          <Reveal delay={0.08} duration={0.38} direction="none">
             <p className="text-lg text-muted-foreground">
               Assessment, programming, and ongoing adjustments. You know what to do, why you are doing it, and what to change when your schedule, recovery, or performance shifts.
             </p>
