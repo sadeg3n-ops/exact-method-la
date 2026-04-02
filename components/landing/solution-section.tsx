@@ -13,6 +13,7 @@ const features = [
     description: "A training plan built around your level, your equipment, your experience, and the real time you have available.",
     image: "/images/process/entrenamiento-con-criterio.png",
     imagePosition: "center center",
+    overlayClass: "from-black/91 via-black/64 to-black/34 md:from-black/90 md:via-black/54 md:to-black/28 md:group-hover:from-black/94 md:group-hover:via-black/68 md:group-hover:to-black/40",
   },
   {
     title: "Flexible nutrition",
@@ -20,6 +21,7 @@ const features = [
     description: "Clear targets, flexible guidelines, and enough room to eat out, work long hours, and still make progress.",
     image: "/images/process/nutricion-flexible.jpg",
     imagePosition: "center center",
+    overlayClass: "from-black/94 via-black/76 to-black/48 md:from-black/93 md:via-black/66 md:to-black/42 md:group-hover:from-black/96 md:group-hover:via-black/78 md:group-hover:to-black/52",
   },
   {
     title: "Ongoing follow-up",
@@ -27,6 +29,7 @@ const features = [
     description: "We review technique, recovery, and performance so we can adjust load, volume, or nutrition before plateau or pain show up.",
     image: "/images/process/seguimiento-constante.png",
     imagePosition: "center center",
+    overlayClass: "from-black/91 via-black/64 to-black/34 md:from-black/90 md:via-black/54 md:to-black/28 md:group-hover:from-black/94 md:group-hover:via-black/68 md:group-hover:to-black/40",
   }
 ]
 
@@ -91,9 +94,7 @@ function SolutionFeatureCard({
         <div
           className={cn(
             "absolute inset-0 bg-gradient-to-t transition-opacity duration-200 ease-out",
-            isMobileViewport
-              ? "from-black/90 via-black/58 to-black/28"
-              : "from-black/88 via-black/46 to-black/20 md:group-hover:from-black/92 md:group-hover:via-black/62 md:group-hover:to-black/36",
+            feature.overlayClass,
           )}
         />
 
